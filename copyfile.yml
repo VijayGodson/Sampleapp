@@ -5,6 +5,6 @@
     - name: copy to debian systems
       import_tasks: debian.yaml
     - name: copy war file
-      copy:#        
+      copy:        
         src: /opt/playbooks/sampleapp.war
         dest: /opt/apache-tomcat-9.0.63/webapps/
